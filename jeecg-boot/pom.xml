@@ -393,7 +393,7 @@
 			<url>http://maven.jeecg.com:8090/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
-	
+
     <!-- 环境 -->
     <profiles>
         <!-- 开发 -->
@@ -407,7 +407,7 @@
                 <!--当前环境-->
                 <profile.name>dev</profile.name>
 				<!--Nacos服务地址-->
-                <config.server-addr>jeecg-boot-nacos:8848</config.server-addr>
+                <config.server-addr>127.0.0.1:8848</config.server-addr>
             </properties>
         </profile>
         <!-- 测试 -->

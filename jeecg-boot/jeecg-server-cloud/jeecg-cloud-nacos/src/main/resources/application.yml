@@ -11,12 +11,12 @@ spring:
     platform: mysql
 db:
   num: 1
+  user:
+    '0': root
   password:
     '0': root
   url:
-    '0': jdbc:mysql://127.0.0.1:3307jeecg_nacos?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
-  user:
-    '0': root
+    '0': jdbc:mysql://127.0.0.1:3307/jeecg_nacos?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
 management:
   metrics:
     export:
