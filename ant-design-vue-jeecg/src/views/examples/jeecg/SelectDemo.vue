@@ -468,7 +468,7 @@
 
 <script>
 
-  import JDictSelectTag from '../../components/dict/JDictSelectTag.vue'
+  import JDictSelectTag from '@/components/dict/JDictSelectTag.vue'
   import JSelectDepart from '@/components/jeecgbiz/JSelectDepart'
   import JSelectUserByDep from '@/components/jeecgbiz/JSelectUserByDep'
   import JSelectMultiUser from '@/components/jeecgbiz/JSelectMultiUser'
@@ -480,7 +480,7 @@
   import JEllipsis from '@/components/jeecg/JEllipsis'
   import JSlider from '@/components/jeecg/JSlider'
   import JSelectMultiple from '@/components/jeecg/JSelectMultiple'
-  import JTreeDict from "../../components/jeecg/JTreeDict.vue";
+  import JTreeDict from "@/components/jeecg/JTreeDict.vue";
   import JCron from "@/components/jeecg/JCron.vue";
   import JEasyCron from "@/components/jeecg/JEasyCron";
   import JTreeSelect from '@/components/jeecg/JTreeSelect'

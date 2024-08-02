@@ -71,7 +71,7 @@
   import {httpAction} from '@/api/manage'
   import Vue from 'vue'
   import {ACCESS_TOKEN} from "@/store/mutation-types"
-  import JImageUpload from '../../../../components/jeecg/JImageUpload'
+  import JImageUpload from '@/components/jeecg/JImageUpload'
 
   export default {
     name: "JeecgOrderCustomerModal",
@@ -147,7 +147,7 @@
           this.hiding = true;
           this.disableSubmit = false;
         }
-        
+
         this.model = Object.assign({}, record);
         if (record.id) {
           this.hiding = false;
