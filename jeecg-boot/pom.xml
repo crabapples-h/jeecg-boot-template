@@ -63,7 +63,7 @@
 
 	<modules>
         <module>jeecg-boot-base-core</module>
-        <module>jeecg-module-demo</module>
+        <module>jeecg-module-business</module>
         <module>jeecg-module-system</module>
 	</modules>
 

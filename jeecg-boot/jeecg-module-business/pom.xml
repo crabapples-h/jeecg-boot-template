@@ -9,15 +9,13 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>jeecg-server-cloud</artifactId>
-    <packaging>pom</packaging>
-    <name>JEECG SERVER CLOUD</name>
+    <artifactId>jeecg-module-business</artifactId>
 
-    <modules>
-        <module>jeecg-cloud-gateway</module>
-        <module>jeecg-cloud-nacos</module>
-        <module>jeecg-system-cloud-start</module>
-        <module>jeecg-demo-cloud-start</module>
-    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>org.jeecgframework.boot</groupId>
+            <artifactId>jeecg-boot-base-core</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
