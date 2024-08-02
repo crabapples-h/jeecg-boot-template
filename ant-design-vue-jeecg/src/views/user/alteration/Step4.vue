@@ -12,7 +12,7 @@
 </template>
 
 <script>
-  import Result from '@/views/result/Result'
+import Result from '@views/examples/result/Result'
   export default {
     name: "Step4",
     props:['userList'],

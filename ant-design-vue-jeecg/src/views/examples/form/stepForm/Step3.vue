@@ -30,40 +30,41 @@
 </template>
 
 <script>
-  import Result from '../../../result/Result'
+import Result from '@views/examples/result/Result'
 
-  export default {
-    name: "Step3",
-    components: {
-      Result
+export default {
+  name: "Step3",
+  components: {
+    Result
+  },
+  data() {
+    return {
+      loading: false
+    }
+  },
+  methods: {
+    finish() {
+      this.$emit('finish')
     },
-    data () {
-      return {
-        loading: false
-      }
-    },
-    methods: {
-      finish () {
-        this.$emit('finish')
-      },
-      toOrderList () {
-        this.$router.push('/list/query-list')
-      }
+    toOrderList() {
+      this.$router.push('/list/query-list')
     }
   }
+}
 </script>
 <style lang="less" scoped>
-  .information {
-    line-height: 22px;
+.information {
+  line-height: 22px;
 
-    .ant-row:not(:last-child) {
-      margin-bottom: 24px;
-    }
+  .ant-row:not(:last-child) {
+    margin-bottom: 24px;
   }
-  .money {
-    font-family: "Helvetica Neue",sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 14px;
-  }
+}
+
+.money {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 14px;
+}
 </style>
