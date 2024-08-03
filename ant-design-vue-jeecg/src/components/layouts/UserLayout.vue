@@ -3,12 +3,12 @@
     <div class="container">
       <div class="top">
         <div class="header">
-          <a href="/">
+          <a href="/" style="display: flex;align-items: baseline">
             <img src="~@/assets/logo.svg" class="logo" alt="logo">
-            <span class="title">Jeecg Boot</span>
+            <span class="title">主标题</span>
           </a>
         </div>
-        <div class="desc" v-if="false">
+        <div class="desc">
           副标题
         </div>
       </div>
@@ -18,11 +18,11 @@
       <div class="footer">
         <div class="links">
           <a href="http://doc.jeecg.com" target="_blank">帮助</a>
-          <a href="https://github.com/zhangdaiscott/jeecg-boot" target="_blank">隐私</a>
-          <a href="https://github.com/zhangdaiscott/jeecg-boot/blob/master/LICENSE" target="_blank">条款</a>
+          <a href="https://baidu.com" target="_blank">隐私</a>
+          <a href="https://baidu.com" target="_blank">条款</a>
         </div>
         <div class="copyright">
-          Copyright &copy; 2019 <a href="http://www.jeecg.com" target="_blank">JEECG开源社区</a> 出品
+          Copyright &copy; 2024 <a href="https://baidu.com" target="_blank">测试</a> 出品
         </div>
       </div>
     </div>
@@ -93,9 +93,10 @@ export default {
 
         .logo {
           height: 44px;
-          vertical-align: top;
+          vertical-align: middle;
           margin-right: 16px;
-          border-style: none;
+          //border-style: none;
+          border: 1px solid red;
         }
 
         .title {
