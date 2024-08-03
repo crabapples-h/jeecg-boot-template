@@ -225,7 +225,7 @@ public class SysAnnouncementController {
 		}else {
 			result.setResult(sysAnnouncement);
 			result.setSuccess(true);
-		}1
+		}
 		return result;
 	}
 
