@@ -3,7 +3,7 @@
     <div class="container">
       <div class="top">
         <div class="header">
-          <a href="/" style="display: flex;align-items: baseline">
+          <a href="/">
             <img src="~@/assets/logo.svg" class="logo" alt="logo">
             <span class="title">主标题</span>
           </a>
@@ -95,8 +95,7 @@ export default {
           height: 44px;
           vertical-align: middle;
           margin-right: 16px;
-          //border-style: none;
-          border: 1px solid red;
+          border-style: none;
         }
 
         .title {
